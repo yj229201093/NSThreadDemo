@@ -9,12 +9,16 @@
 /* Begin PBXBuildFile section */
 		6B2A48CB1D66AD0B0062D605 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 6B2A48CA1D66AD0B0062D605 /* main.m */; };
 		6B2A48CE1D66AD0B0062D605 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 6B2A48CD1D66AD0B0062D605 /* AppDelegate.m */; };
-		6B2A48D11D66AD0B0062D605 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 6B2A48D01D66AD0B0062D605 /* ViewController.m */; };
 		6B2A48D41D66AD0B0062D605 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 6B2A48D21D66AD0B0062D605 /* Main.storyboard */; };
 		6B2A48D61D66AD0B0062D605 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 6B2A48D51D66AD0B0062D605 /* Assets.xcassets */; };
 		6B2A48D91D66AD0B0062D605 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 6B2A48D71D66AD0B0062D605 /* LaunchScreen.storyboard */; };
 		6B2A48E41D66AD0B0062D605 /* NSThreadDemoTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 6B2A48E31D66AD0B0062D605 /* NSThreadDemoTests.m */; };
 		6B2A48EF1D66AD0C0062D605 /* NSThreadDemoUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 6B2A48EE1D66AD0C0062D605 /* NSThreadDemoUITests.m */; };
+		6B2A49071D66F47A0062D605 /* NSThreadDemoThree.m in Sources */ = {isa = PBXBuildFile; fileRef = 6B2A49061D66F47A0062D605 /* NSThreadDemoThree.m */; };
+		6B2A490A1D66F4930062D605 /* NSThreadDemoTwo.m in Sources */ = {isa = PBXBuildFile; fileRef = 6B2A49091D66F4930062D605 /* NSThreadDemoTwo.m */; };
+		6B2A49131D67029E0062D605 /* MainViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 6B2A49121D67029E0062D605 /* MainViewController.m */; };
+		6B2A49161D6706250062D605 /* NSThreadDemoOne.m in Sources */ = {isa = PBXBuildFile; fileRef = 6B2A49151D6706250062D605 /* NSThreadDemoOne.m */; };
+		6B2A49191D67084A0062D605 /* ImageData.m in Sources */ = {isa = PBXBuildFile; fileRef = 6B2A49181D67084A0062D605 /* ImageData.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -39,8 +43,6 @@
 		6B2A48CA1D66AD0B0062D605 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		6B2A48CC1D66AD0B0062D605 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		6B2A48CD1D66AD0B0062D605 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
-		6B2A48CF1D66AD0B0062D605 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
-		6B2A48D01D66AD0B0062D605 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
 		6B2A48D31D66AD0B0062D605 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		6B2A48D51D66AD0B0062D605 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		6B2A48D81D66AD0B0062D605 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
@@ -51,6 +53,16 @@
 		6B2A48EA1D66AD0B0062D605 /* NSThreadDemoUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = NSThreadDemoUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		6B2A48EE1D66AD0C0062D605 /* NSThreadDemoUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = NSThreadDemoUITests.m; sourceTree = "<group>"; };
 		6B2A48F01D66AD0C0062D605 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		6B2A49051D66F47A0062D605 /* NSThreadDemoThree.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NSThreadDemoThree.h; sourceTree = "<group>"; };
+		6B2A49061D66F47A0062D605 /* NSThreadDemoThree.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NSThreadDemoThree.m; sourceTree = "<group>"; };
+		6B2A49081D66F4930062D605 /* NSThreadDemoTwo.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NSThreadDemoTwo.h; sourceTree = "<group>"; };
+		6B2A49091D66F4930062D605 /* NSThreadDemoTwo.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NSThreadDemoTwo.m; sourceTree = "<group>"; };
+		6B2A49111D67029E0062D605 /* MainViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MainViewController.h; sourceTree = "<group>"; };
+		6B2A49121D67029E0062D605 /* MainViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MainViewController.m; sourceTree = "<group>"; };
+		6B2A49141D6706250062D605 /* NSThreadDemoOne.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NSThreadDemoOne.h; sourceTree = "<group>"; };
+		6B2A49151D6706250062D605 /* NSThreadDemoOne.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NSThreadDemoOne.m; sourceTree = "<group>"; };
+		6B2A49171D67084A0062D605 /* ImageData.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ImageData.h; sourceTree = "<group>"; };
+		6B2A49181D67084A0062D605 /* ImageData.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ImageData.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -103,8 +115,16 @@
 			children = (
 				6B2A48CC1D66AD0B0062D605 /* AppDelegate.h */,
 				6B2A48CD1D66AD0B0062D605 /* AppDelegate.m */,
-				6B2A48CF1D66AD0B0062D605 /* ViewController.h */,
-				6B2A48D01D66AD0B0062D605 /* ViewController.m */,
+				6B2A49111D67029E0062D605 /* MainViewController.h */,
+				6B2A49121D67029E0062D605 /* MainViewController.m */,
+				6B2A49141D6706250062D605 /* NSThreadDemoOne.h */,
+				6B2A49151D6706250062D605 /* NSThreadDemoOne.m */,
+				6B2A49081D66F4930062D605 /* NSThreadDemoTwo.h */,
+				6B2A49091D66F4930062D605 /* NSThreadDemoTwo.m */,
+				6B2A49051D66F47A0062D605 /* NSThreadDemoThree.h */,
+				6B2A49061D66F47A0062D605 /* NSThreadDemoThree.m */,
+				6B2A49171D67084A0062D605 /* ImageData.h */,
+				6B2A49181D67084A0062D605 /* ImageData.m */,
 				6B2A48D21D66AD0B0062D605 /* Main.storyboard */,
 				6B2A48D51D66AD0B0062D605 /* Assets.xcassets */,
 				6B2A48D71D66AD0B0062D605 /* LaunchScreen.storyboard */,
@@ -270,9 +290,13 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				6B2A48D11D66AD0B0062D605 /* ViewController.m in Sources */,
+				6B2A49161D6706250062D605 /* NSThreadDemoOne.m in Sources */,
+				6B2A49071D66F47A0062D605 /* NSThreadDemoThree.m in Sources */,
 				6B2A48CE1D66AD0B0062D605 /* AppDelegate.m in Sources */,
+				6B2A49131D67029E0062D605 /* MainViewController.m in Sources */,
 				6B2A48CB1D66AD0B0062D605 /* main.m in Sources */,
+				6B2A49191D67084A0062D605 /* ImageData.m in Sources */,
+				6B2A490A1D66F4930062D605 /* NSThreadDemoTwo.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -412,6 +436,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = NSThreadDemo/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = cn.net.yangjian.www.NSThreadDemo;
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -423,6 +448,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = NSThreadDemo/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = cn.net.yangjian.www.NSThreadDemo;
 				PRODUCT_NAME = "$(TARGET_NAME)";
